@@ -1,0 +1,13 @@
+:root {
+  --bg: #070707;
+  --fg: #f8f8f8;
+  --fill: #2a2a2a;
+  --fill-trans: #2a2a2aaf;
+  --stroke: #333333;
+}
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

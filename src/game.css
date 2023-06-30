@@ -1,0 +1,61 @@
+.currency-display-container {
+  background: var(--fill-trans);
+  backdrop-filter: blur(5px);
+  width: fit-content;
+  padding: 5px;
+  min-width: 15%;
+  border-radius: 311px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.currency-display-container > * {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.pc {
+  background: var(--fill);
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 16px;
+  border: 2px var(--stroke) solid;
+}
+.pc > * {
+  margin: 0;
+  text-align: center;
+}
+.pc > .details {
+  margin-top: 10px;
+  background: var(--stroke);
+  padding: 10px 20px;
+  border-radius: 16px;
+}
+.pc > .details > * {
+  margin: 5px;
+}
+.pc > .details > .cpu,
+.ram,
+.disk,
+.gpu {
+  background: lightcoral;
+  padding: 8.5px;
+  border-radius: 8px;
+  color: rgb(20, 20, 20);
+  border-bottom: 3.5px rgb(20, 20, 58) solid;
+  cursor: pointer;
+  transition: 0.1s ease-in-out background;
+}
+.pc > .details > .cpu:hover,
+.ram:hover,
+.disk:hover,
+.gpu:hover {
+  background: lightslategray;
+  color: lightgoldenrodyellow;
+}
+.pc > .details > .cpu:active,
+.ram:active,
+.disk:active,
+.gpu:active {
+  padding: 7.5px;
+}
